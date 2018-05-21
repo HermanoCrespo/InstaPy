@@ -346,7 +346,7 @@ session.interact_user_following(['natgeo'], amount=10, randomize=True)
 
 ### Interact with someone else's followers
 ```python
-# Interact with the people that a given user is following
+# Interact with the followers of a given user
 # set_do_comment, set_do_follow and set_do_like are applicable
 
 session.set_user_interact(amount=5, randomize=True, percentage=50, media='Photo')
